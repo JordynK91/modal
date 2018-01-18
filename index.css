@@ -1,0 +1,18 @@
+#modal {width: 100px;
+		height: 100px;
+		border: solid;
+		display: none;
+		}
+
+
+
+@media all and (max-width: 992px) {
+}
+
+@media all and (min-width: 481px) and (max-width: 768px){
+	}
+
+@media all and (max-width: 480px) {
+}
+
+

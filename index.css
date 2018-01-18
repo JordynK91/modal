@@ -1,18 +1,428 @@
-#modal {width: 100px;
-		height: 100px;
-		border: solid;
-		display: none;
+body {background-color: darkslategrey;
 		}
 
+.navbar {
+    background-color: slategrey;
+    overflow: hidden;
+ }
+
+ .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+ }
+
+ .navbar a:hover {
+    background-color: lightgrey;
+    color: black;
+ }
+
+
+#modal {width: 500px;
+		height: 250px;
+		border: solid;
+		display: none;
+		margin: 0 auto;
+		background-color: white;
+    	position: fixed;
+    	bottom: 40px;
+    	left: 200px;
+	}
+		
+
+
+#close {width: 20px;
+		height: 20px;
+		border: solid;
+		background-color: grey;
+	}
+
+
+.wrapper {width: 1000px;
+		height: 150px;
+		border: solid;
+		margin: auto;
+		position: fixed;
+    	background-color: indianred;
+	}
+
+#header {font-family: "garamond", serif;
+		font-size: 45px;
+		margin: 0px auto;
+		text-align: center;
+		position: relative;
+		bottom: 25px;
+		color: white;
+	}
+
+.photo {
+	background-image: url("coffeeshop.jpg");
+	height: 1000px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+.wrapper2{width: 500px;
+		height: 50px;
+		background-color: indianred;
+		margin: 0 auto;
+		position: relative;
+		top: 615px;
+	}
+
+#header2{
+		font-size: 35px;
+		margin: 0 auto;
+		text-align: center;
+		color: white;
+		font-family: "garamond", serif;
+		font-style: italic;
+	}
+
+.wrapper3{
+		width: 500px;
+		height: 320px;
+		background-color: ivory;
+		margin: 0 auto;
+	}
+
+#text{font-size: 18px;
+		margin: 0px auto;
+		color: black;
+		font-family: 'garamond', serif;
+	}
+
+#modaltext {font-size: 30px;
+			text-align: center;
+			font-family: 'arial',sans-serif;
+	}
 
 
 @media all and (max-width: 992px) {
+.navbar {
+    background-color: slategrey;
+    overflow: hidden;
+ }
+
+ .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+ }
+
+ .navbar a:hover {
+    background-color: lightgrey;
+    color: black;
+ }
+
+
+#modal {width: 500px;
+		height: 250px;
+		border: solid;
+		display: none;
+		margin: 0 auto;
+		background-color: white;
+    	position: fixed;
+    	bottom: 40px;
+    	left: 200px;
+	}
+		
+
+
+#close {width: 20px;
+		height: 20px;
+		border: solid;
+		background-color: grey;
+	}
+
+
+.wrapper {width: 1000px;
+		height: 150px;
+		border: solid;
+		margin: auto;
+		position: fixed;
+    	background-color: indianred;
+	}
+
+#header {font-family: "garamond", serif;
+		font-size: 45px;
+		margin: 0px auto;
+		text-align: center;
+		position: relative;
+		bottom: 25px;
+		color: white;
+	}
+
+.photo {
+	background-image: url("coffeeshop.jpg");
+	height: 1000px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+.wrapper2{width: 500px;
+		height: 50px;
+		background-color: indianred;
+		margin: 0 auto;
+		position: relative;
+		top: 615px;
+	}
+
+#header2{
+		font-size: 35px;
+		margin: 0 auto;
+		text-align: center;
+		color: white;
+		font-family: "garamond", serif;
+		font-style: italic;
+	}
+
+.wrapper3{
+		width: 500px;
+		height: 320px;
+		background-color: ivory;
+		margin: 0 auto;
+	}
+
+#text{font-size: 18px;
+		margin: 0px auto;
+		color: black;
+		font-family: 'garamond', serif;
+	}
+
+#modaltext {font-size: 30px;
+			text-align: center;
+			font-family: 'arial',sans-serif;
+	}
+
 }
 
+
+
 @media all and (min-width: 481px) and (max-width: 768px){
+	.navbar {
+    background-color: slategrey;
+    overflow: hidden;
+ }
+
+ .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+ }
+
+ .navbar a:hover {
+    background-color: lightgrey;
+    color: black;
+ }
+
+
+#modal {width: 250px;
+		height: 250px;
+		border: solid;
+		display: none;
+		margin: 0 auto;
+		background-color: white;
+    	position: fixed;
+    	bottom: 40px;
+    	left: 200px;
+	}
+		
+
+
+#close {width: 20px;
+		height: 20px;
+		border: solid;
+		background-color: grey;
+	}
+
+
+.wrapper {width: 700px;
+		height: 250px;
+		border: solid;
+		margin: auto;
+		position: fixed;
+    	background-color: indianred;
+	}
+
+#header {font-family: "garamond", serif;
+		font-size: 45px;
+		margin: 0px auto;
+		text-align: center;
+		position: relative;
+		bottom: 25px;
+		color: white;
+	}
+
+.photo {
+	background-image: url("coffeeshop.jpg");
+	height: 1000px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+.wrapper2{width: 500px;
+		height: 50px;
+		background-color: indianred;
+		margin: 0 auto;
+		position: relative;
+		top: 615px;
+	}
+
+#header2{
+		font-size: 35px;
+		margin: 0 auto;
+		text-align: center;
+		color: white;
+		font-family: "garamond", serif;
+		font-style: italic;
+	}
+
+.wrapper3{
+		width: 500px;
+		height: 320px;
+		background-color: ivory;
+		margin: 0 auto;
+	}
+
+#text{font-size: 18px;
+		margin: 0px auto;
+		color: black;
+		font-family: 'garamond', serif;
+	}
+
+#modaltext {font-size: 30px;
+			text-align: center;
+			font-family: 'arial',sans-serif;
+	}
+
+
 	}
 
 @media all and (max-width: 480px) {
+	.navbar {
+    background-color: slategrey;
+    overflow: hidden;
+ }
+
+ .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+ }
+
+ .navbar a:hover {
+    background-color: lightgrey;
+    color: black;
+ }
+
+
+#modal {width: 250px;
+		height: 250px;
+		border: solid;
+		display: none;
+		margin: 0 auto;
+		background-color: white;
+    	position: fixed;
+    	bottom: 40px;
+    	left: 50px;
+	}
+		
+
+#close {width: 20px;
+		height: 20px;
+		border: solid;
+		background-color: grey;
+	}
+
+
+.wrapper {width: 0px;
+		height: 0px;
+		margin: auto;
+		border-style: solid;
+		position: fixed;
+	}
+
+#header {font-family: "garamond", serif;
+		font-size: 40px;
+		margin: 0px auto;
+		text-align: center;
+		position: relative;
+		bottom: 25px;
+		color: white;
+		text-shadow: 2px 2px #ff0000
+	}
+
+.photo {
+	background-image: url("coffeeshop.jpg");
+	height: 1500px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+.wrapper2{width: 250px;
+		height: 40px;
+		background-color: indianred;
+		margin: 0 auto;
+		position: relative;
+		top: 1000px;
+	}
+
+#header2{
+		font-size: 25px;
+		margin: 0 auto;
+		text-align: center;
+		color: white;
+		font-family: "garamond", serif;
+		font-style: italic;
+	}
+
+.wrapper3{
+		width: 320px;
+		height: 320px;
+		background-color: ivory;
+		margin: 0 auto;
+	}
+
+#text{font-size: 15px;
+		margin: 5px auto;
+		color: black;
+		font-family: 'garamond', serif;
+
+	}
+
+#modaltext {font-size: 30px;
+			text-align: center;
+			font-family: 'arial',sans-serif;
+	}
 }
 
 

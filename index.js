@@ -10,3 +10,12 @@ close.addEventListener ('click', closeout)
 
 function closeout(){modal.style.display = 'none';}
 
+
+var submit = document.getElementById('submit')
+
+submit.addEventListener('click', thankYou)
+
+function thankYou(){thanks.style.display = 'block';
+					modaltext.style.display = 'none';
+					email.style.display = 'none';
+					submit.style.display = 'none'}

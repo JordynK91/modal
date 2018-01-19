@@ -28,7 +28,7 @@ body {background-color: darkslategrey;
 		border: solid;
 		display: none;
 		margin: 0 auto;
-		background-color: white;
+		background-color: rosybrown;
     	position: fixed;
     	bottom: 40px;
     	left: 200px;
@@ -48,6 +48,8 @@ body {background-color: darkslategrey;
 		border: solid;
 		margin: auto;
 		position: fixed;
+		left: 40px;
+		top: 70px;
     	background-color: indianred;
 	}
 
@@ -58,6 +60,7 @@ body {background-color: darkslategrey;
 		position: relative;
 		bottom: 25px;
 		color: white;
+		text-shadow: 2px 2px #ff0000
 	}
 
 .photo {
@@ -84,6 +87,7 @@ body {background-color: darkslategrey;
 		color: white;
 		font-family: "garamond", serif;
 		font-style: italic;
+		text-shadow: 2px 2px #ff0000
 	}
 
 .wrapper3{
@@ -94,15 +98,34 @@ body {background-color: darkslategrey;
 	}
 
 #text{font-size: 18px;
-		margin: 0px auto;
+		margin: 10px;
 		color: black;
 		font-family: 'garamond', serif;
+		text-indent: 5%;
 	}
 
 #modaltext {font-size: 30px;
 			text-align: center;
-			font-family: 'arial',sans-serif;
+			margin: 5px;
+			font-family: 'garamond'serif;
 	}
+
+#submit {width: 80px;
+		height: 20px;
+	}
+
+#thanks {display: none;
+		font-size: 25px;
+		font-family: 'garamond', serif;
+		text-align: center;
+	}
+
+
+.endtext {color: white;
+		text-align: center;
+		position: relative;
+		top: 10px;
+}
 
 
 @media all and (max-width: 992px) {
@@ -133,7 +156,6 @@ body {background-color: darkslategrey;
 		border: solid;
 		display: none;
 		margin: 0 auto;
-		background-color: white;
     	position: fixed;
     	bottom: 40px;
     	left: 200px;
@@ -206,7 +228,18 @@ body {background-color: darkslategrey;
 
 #modaltext {font-size: 30px;
 			text-align: center;
-			font-family: 'arial',sans-serif;
+			margin: 5px;
+			font-family: 'garamond'serif;
+	}
+
+#submit {width: 80px;
+		height: 20px;
+	}
+
+#thanks {display: none;
+		font-size: 25px;
+		font-family: 'garamond', serif;
+		text-align: center;
 	}
 
 }
@@ -241,7 +274,6 @@ body {background-color: darkslategrey;
 		border: solid;
 		display: none;
 		margin: 0 auto;
-		background-color: white;
     	position: fixed;
     	bottom: 40px;
     	left: 200px;
@@ -256,7 +288,7 @@ body {background-color: darkslategrey;
 	}
 
 
-.wrapper {width: 700px;
+.wrapper {width: 650px;
 		height: 250px;
 		border: solid;
 		margin: auto;
@@ -312,13 +344,23 @@ body {background-color: darkslategrey;
 		font-family: 'garamond', serif;
 	}
 
-#modaltext {font-size: 30px;
+#modaltext {font-size: 25px;
 			text-align: center;
-			font-family: 'arial',sans-serif;
+			margin: 5px;
+			font-family: 'garamond'serif;
 	}
 
-
+#submit {width: 80px;
+		height: 20px;
 	}
+
+#thanks {display: none;
+		font-size: 25px;
+		font-family: 'garamond', serif;
+		text-align: center;
+	}
+
+}
 
 @media all and (max-width: 480px) {
 	.navbar {
@@ -348,7 +390,7 @@ body {background-color: darkslategrey;
 		border: solid;
 		display: none;
 		margin: 0 auto;
-		background-color: white;
+		background-color: rosybrown;
     	position: fixed;
     	bottom: 40px;
     	left: 50px;
@@ -366,7 +408,7 @@ body {background-color: darkslategrey;
 		height: 0px;
 		margin: auto;
 		border-style: solid;
-		position: fixed;
+		position: static;
 	}
 
 #header {font-family: "garamond", serif;
@@ -375,13 +417,14 @@ body {background-color: darkslategrey;
 		text-align: center;
 		position: relative;
 		bottom: 25px;
+		right: 150px;
 		color: white;
 		text-shadow: 2px 2px #ff0000
 	}
 
 .photo {
 	background-image: url("coffeeshop.jpg");
-	height: 1500px;
+	height: 800px;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -391,9 +434,11 @@ body {background-color: darkslategrey;
 .wrapper2{width: 250px;
 		height: 40px;
 		background-color: indianred;
-		margin: 0 auto;
+		left: 40px;
 		position: relative;
-		top: 1000px;
+		top: 400px;
+
+		
 	}
 
 #header2{
@@ -406,11 +451,15 @@ body {background-color: darkslategrey;
 	}
 
 .wrapper3{
-		width: 320px;
-		height: 320px;
-		background-color: ivory;
-		margin: 0 auto;
+		width: 350px;
+		height: 300px;
+		text-align: center;
+		background-color: indianred;
+		margin-top: 30px;
+		position: relative;
+		right:90px;
 	}
+		
 
 #text{font-size: 15px;
 		margin: 5px auto;
@@ -419,10 +468,23 @@ body {background-color: darkslategrey;
 
 	}
 
-#modaltext {font-size: 30px;
+#modaltext {font-size: 20px;
 			text-align: center;
-			font-family: 'arial',sans-serif;
+			margin: 5px;
+			font-family: 'garamond'serif;
 	}
+
+#submit {width: 80px;
+		height: 20px;
+	}
+
+#thanks {display: none;
+		font-size: 25px;
+		font-family: 'garamond', serif;
+		text-align: center;
+	}
+
+
 }
 
 
